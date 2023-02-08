@@ -16119,12 +16119,12 @@ table {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   cursor: hand;
   border-radius: 50%;
-  background: #b19361;
+  background: red;
   -webkit-tap-highlight-color: transparent;
   transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
 }
 .material-scrolltop:hover {
-  background-color: #b19361;
+  background-color: var(--bs-green);
   text-decoration: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5);
 }
